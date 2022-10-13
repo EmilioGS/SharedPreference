@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/c1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu nombre"
+            android:textSize="22sp"
+            android:textColor="@color/c5"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/edTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/c5"
+            android:layout_margin="10dp"
+            android:hint="Nombre"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu apellido"
+            android:textSize="22sp"
+            android:textColor="@color/c5"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/edTxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/c5"
+            android:layout_margin="10dp"
+            android:hint="Apellido"/>
+
+        <CheckBox
+            android:id="@+id/cbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar datos"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/c2"/>
+
+        <TextView
+            android:id="@+id/lbl3"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Validación"
+            android:textSize="22sp"
+            android:textColor="@color/c5"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="22sp"
+            android:textColor="@color/c5"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="22sp"
+            android:textColor="@color/c5"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
